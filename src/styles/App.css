@@ -3,17 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 #root {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
-
 .App {
     width: 800px;
 }
-
 .post {
     display: flex;
     justify-content: space-between;
@@ -50,4 +47,18 @@
 .page__current{
     border: 2px solid orange;
     font-weight: bold;
+}
+.navbar{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background-color: lightblue;
+}
+.navbar__links{
+    margin-left: auto;
+}
+.post__btns{
+    display: flex;
 }
